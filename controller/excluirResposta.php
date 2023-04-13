@@ -15,9 +15,9 @@
     $_SESSION['msg'] = "Erro ao excluir resposta!";
     $_SESSION['tipo'] = 'erro'; 
 
-    if($resultado == true){
+    if($resultado == true) {
         $_SESSION['msg'] = "Resposta excluída com Sucesso!";
-    $_SESSION['tipo'] = 'sucesso'; 
+        $_SESSION['tipo'] = 'sucesso'; 
     }
 
     header('location: '.URL_BASE.'/views/paginaFaleConosco.php');

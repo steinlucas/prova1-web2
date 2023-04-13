@@ -2,9 +2,7 @@
 include_once '../base.php';
 include_once DIR_BASE.'/model/resposta.php';
 
-class Contato
-{
-	
+class Contato {
 	private $codigo;
 	private $nome;
 	private $email;
@@ -12,54 +10,52 @@ class Contato
 	private $mensagem;
 	private Resposta $resposta;
 
-
-	public function setCodigo($codigo){
+	public function setCodigo($codigo) {
 		$this->codigo = $codigo;
 	}
 
-	public function getCodigo(){
+	public function getCodigo() {
 		return $this->codigo;
 	}
 
-	public function setNome($nome){
+	public function setNome($nome) {
 		$this->nome = $nome;
 	}
 
-	public function getNome(){
+	public function getNome() {
 		return $this->nome;
 	}	
 
-	public function setEmail($email){
+	public function setEmail($email) {
 		$this->email = $email;
 	}
 
-	public function getEmail(){
+	public function getEmail() {
 		return $this->email;
 	}
 
-	public function setTelefone($telefone){
+	public function setTelefone($telefone) {
 		$this->telefone = $telefone;
 	}
 
-	public function getTelefone(){
+	public function getTelefone() {
 		return $this->telefone;
 	}
 
-	public function setMensagem($mensagem){
+	public function setMensagem($mensagem) {
 		$this->mensagem = $mensagem;
 	}
 
-	public function getMensagem(){
+	public function getMensagem() {
 		return $this->mensagem;
 	}
-	public function setResposta($resposta){
+	
+	public function setResposta($resposta) {
 		$this->resposta = $resposta;
 	}
 
-	public function getResposta(){
+	public function getResposta() {
 		return $this->resposta;
 	}
 }
-
-
 ?>
