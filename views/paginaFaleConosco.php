@@ -51,18 +51,22 @@ if(isset($_SESSION['msg'])) {
                             <label for="bine">Nome</label>
                             <input type="text" id="nome" name="nome" class="form-control" placeholder="Ex: José da Silva" required/>
                         </div>
+                        <br>
                         <div class="form-group">
                             <label for="email">E-mail</label>
                             <input type="email" id="email" name="email" class="form-control" placeholder="exemplo@exemplo.com" required/>
                         </div>
+                        <br>
                         <div class="form-group">
                             <label for="telefone">Telefone</label>
                             <input type="number" id="telefone" name="telefone" class="form-control" placeholder="(00) 00000-0000" required/>
                         </div>
+                        <br>
                         <div class="form-group">
                             <label for="mensagem">Mensagem</label>
                             <textarea rows="3" id="mensagem" name="mensagem" class="form-control" placeholder="Mensagem" required></textarea>
                         </div>
+                        <br>
                         <div class="form-group">
                             <input type="submit" id="btnEnviar" class="btn btn-outline-success btn-block pull-right" value="Enviar"/>
                         </div>
