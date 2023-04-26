@@ -26,6 +26,5 @@ include '../base.php';
    <div id="mainContent" style="text-align: center;">
       <img src="<?php echo URL_BASE.'/img/uc.png';?>"/>
    </div>
-   <div><h1><?php echo URL_BASE ;?></h1></div>
 </body>
 </html>
