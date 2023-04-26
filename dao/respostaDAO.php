@@ -1,7 +1,7 @@
 <?php
 include_once '../base.php';
-@include_once DIR_BASE."/dao/conexao.php";
-@include_once DIR_BASE."/model/resposta.php";
+include_once DIR_BASE."/dao/conexao.php";
+include_once DIR_BASE."/model/resposta.php";
 
 class RespostaDAO {
 	protected $conn;
