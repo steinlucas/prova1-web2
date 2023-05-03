@@ -20,4 +20,4 @@
         $_SESSION['tipo'] = 'sucesso'; 
     }
 
-    header('location: '.URL_BASE.'/views/paginaFaleConosco.php');
+    header('location: '.URL_BASE.'/views/paginaListarMensagens.php');
