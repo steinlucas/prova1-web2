@@ -18,7 +18,7 @@ class RespostaDAO {
 			$comandoSQL='insert into resposta (descricao, id_contato) VALUES (:descricao, :idContato)';
 			$stmt = $this->conn->prepare($comandoSQL);
 			
-            $resultado=$stmt->execute(
+                        $resultado=$stmt->execute(
 				array(
 					':descricao' => $msg->getDescricao(),
 					':idContato' => $msg->getCodigo()
